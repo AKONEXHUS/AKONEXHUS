@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #050816;
+  background: #020617;
   color: #ffffff;
 }
 
@@ -18,79 +18,87 @@ body {
   align-items: center;
   text-align: center;
   padding: 40px;
-  background: radial-gradient(circle at top, #1b3a68, #050816 60%);
+  background:
+    linear-gradient(180deg, #0f172a, #020617);
 }
 
 .hero h1 {
-  font-size: 80px;
-  letter-spacing: 12px;
-  color: #00d9ff;
-  text-shadow: 0 0 25px #00d9ff;
+  font-size: 90px;
+  letter-spacing: 15px;
+  color: #00e5ff;
+  text-shadow:
+    0 0 10px #00e5ff,
+    0 0 30px #00e5ff;
 }
 
 .hero p {
-  max-width: 700px;
+  max-width: 750px;
   margin: 30px 0;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.6;
-  color: #d6deeb;
+  color: #cbd5e1;
 }
 
 .btn {
-  padding: 18px 45px;
+  padding: 18px 50px;
   border-radius: 50px;
-  background: #00d9ff;
+  background: #00e5ff;
   color: #001018;
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px;
   transition: 0.3s;
 }
 
 .btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .section {
-  padding: 80px 10%;
+  padding: 90px 10%;
 }
 
 .section h2 {
   text-align: center;
-  font-size: 42px;
-  margin-bottom: 50px;
+  font-size: 45px;
+  margin-bottom: 60px;
+  color: #00e5ff;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
+  gap: 35px;
 }
 
 .card {
-  background: #101a32;
-  padding: 35px;
-  border-radius: 20px;
-  border: 1px solid #1e3358;
-  transition: 0.3s;
+  background: rgba(15, 23, 42, 0.8);
+  padding: 40px;
+  border-radius: 25px;
+  border: 1px solid rgba(0,229,255,0.3);
+  backdrop-filter: blur(10px);
+  transition: 0.4s;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  border-color: #00d9ff;
+  transform: translateY(-15px);
+  border-color: #00e5ff;
+  box-shadow: 0 0 30px rgba(0,229,255,0.4);
 }
 
 .card h3 {
-  color: #00d9ff;
-  margin-bottom: 15px;
+  color: #00e5ff;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .card p {
-  color: #c8d1df;
-  line-height: 1.5;
+  color: #cbd5e1;
+  line-height: 1.6;
 }
 
 footer {
   text-align: center;
   padding: 40px;
-  color: #8993a8;
+  color: #64748b;
 }
