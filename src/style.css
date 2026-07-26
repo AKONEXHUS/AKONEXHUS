@@ -18,8 +18,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 40px;
-  background:
-    radial-gradient(circle at top, #1b3a68, #050816 60%);
+  background: radial-gradient(circle at top, #1b3a68, #050816 60%);
 }
 
 .hero h1 {
@@ -44,7 +43,7 @@ body {
   color: #001018;
   text-decoration: none;
   font-weight: bold;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .btn:hover {
@@ -72,7 +71,7 @@ body {
   padding: 35px;
   border-radius: 20px;
   border: 1px solid #1e3358;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .card:hover {
