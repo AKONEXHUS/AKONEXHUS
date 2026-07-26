@@ -1,0 +1,1 @@
+console.log("AKONEXHUS iniciada com sucesso.");
