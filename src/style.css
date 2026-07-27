@@ -192,9 +192,10 @@ footer {
 
  color:#777;
 
-}.logo {
-  width: 220px;
-  max-width: 80%;
+.logo {
+  width: 520px;
+  max-width: 90%;
   margin-bottom: 35px;
   filter: drop-shadow(0 0 20px rgba(212,175,55,0.6));
+}
 }
